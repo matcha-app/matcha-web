@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import "./navbar.css";
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom'
-import { StaticRouter } from 'react-router'
 
 class NavigationBar extends Component {
 
