@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-    Route
+    Route,
+    Switch
 } from 'react-router-dom';
 
 import {
@@ -57,7 +58,9 @@ class App extends Component {
                         onScreenSelect={this.onScreenSelect}
                     />
                     <div className="app-screen">
-                        {routes}
+                        <Switch>
+                            {routes}
+                        </Switch>
                     </div>
                 </Col>
                 </Grid>
