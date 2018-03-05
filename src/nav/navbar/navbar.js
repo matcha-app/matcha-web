@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./navbar.css";
 import PropTypes from 'prop-types';
-import { Link, Router } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 class NavigationBar extends Component {
 
@@ -31,9 +31,7 @@ class NavigationBar extends Component {
 
         return (
             <div className="navbar-root">
-                <Router>
                 {screenList}
-                </Router>
             </div>
         );
     }
