@@ -6,6 +6,7 @@ cache:
     node_modules
 before_deploy:
   npm run build
+  ls
 deploy:
   provider: firebase
   token:
