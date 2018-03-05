@@ -6,6 +6,7 @@ cache:
     node_modules
 script:
   npm test
+script:
   npm run build
 deploy:
   provider: firebase
