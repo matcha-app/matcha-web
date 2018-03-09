@@ -4,6 +4,8 @@ node_js:
 cache:
   directories:
     node_modules
+script:
+  npm test
 before_deploy:
   npm run build
 deploy:
